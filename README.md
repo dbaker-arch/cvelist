@@ -1,3 +1,6 @@
+>**Note 9/26/2024:**  Although the CVE Record Submission via Pilot PRs ended on 6/30/2023, it is understood that this repository has been used by some members of the community as a cache/proxy for the CVE List.   While the CVE program has attempted to maintain the currency of this list to date to support that community, it is important to note that the official CVE List resides [here](https://github.com/CVEProject/cvelistV5).  This new list uses the current CVE Record Format (i.e, CVE Record Format v 5.x) as defined [here](https://github.com/CVEProject/cve-schema).  It is highly encouraged for any users of this repository to begin using the official CVE List repository as soon as possible.  
+## Warning: [CVE Record Submission via Pilot PRs ending 6/30/2023](https://github.com/CVEProject/cvelist/discussions/8938)
+
 # CVE Automation Working Group Git Pilot
 
 The [CVE Automation Working
@@ -12,7 +15,7 @@ See [How to Contribute](https://github.com/CVEProject/cvelist/blob/master/CONTRI
 for details on participating in this pilot.
 
 This repository holds information included in the [CVE
-List](https://cve.mitre.org) formatted using the [CVE JSON
+List](https://cve.mitre.org/cve/) formatted using the [CVE JSON
 format](https://github.com/CVEProject/automation-working-group/tree/master/cve_json_schema). 
 
 Use of the CVE information in this repository is subject to the [CVE
@@ -34,7 +37,7 @@ complete within 5 minutes.
 
 For ids that have been populated, the files contain the description
 and references that appear in the [CVE
-List](https://cve.mitre.org/cve/cve.html).  They may also contain
+List](https://cve.mitre.org/cve/).  They may also contain
 information about the affected product(s) and problem type(s), which
 CNAs have been supplying when making assignments during the past year
 but which is not included in the CVE List.  And going forward, it is
